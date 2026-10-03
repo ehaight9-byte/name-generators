@@ -25,7 +25,7 @@ ${body}
 
 for (const g of generators) {
   const others = generators.filter(o => o !== g)
-    .map(o => `<li><a href="/${o.slug}.html">${esc(o.title)}</a></li>`).join('\n');
+    .map(o => `<li><a href="/${o.slug}">${esc(o.title)}</a></li>`).join('\n');
   const data = JSON.stringify({ a: g.a, b: g.b, c: g.c || [], patterns: g.patterns });
   fs.writeFileSync(`${g.slug}.html`, page(`${g.title} (Free, No Sign-Up)`, g.blurb, `<h1>${esc(g.title)}</h1>
 <p>${esc(g.intro)}</p>
@@ -44,11 +44,11 @@ fs.writeFileSync('index.html', page(`${site.name}: Free Band Name Generators by 
   `<h1>Band name generators, one genre at a time</h1>
 <p>Pick your genre. Click the button. Get ten names that actually sound like that kind of band.</p>
 <ul class="list">
-${generators.map(g => `<li><a href="/${g.slug}.html">${esc(g.title)}</a><span>${esc(g.blurb)}</span></li>`).join('\n')}
+${generators.map(g => `<li><a href="/${g.slug}">${esc(g.title)}</a><span>${esc(g.blurb)}</span></li>`).join('\n')}
 </ul>`));
 
 if (site.url) {
-  const urls = ['', ...generators.map(g => `${g.slug}.html`)]
+  const urls = ['', ...generators.map(g => g.slug)]
     .map(p => `<url><loc>${site.url}/${p}</loc></url>`).join('\n');
   fs.writeFileSync('sitemap.xml', `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
