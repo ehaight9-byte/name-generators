@@ -1,5 +1,5 @@
 {
-  "site": { "name": "Band Name Forge", "url": "" },
+  "site": { "name": "Band Name Forge", "url": "https://tangerine-pie-56596d.netlify.app" },
   "generators": [
     {
       "slug": "doom-metal-band-name-generator",
