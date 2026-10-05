@@ -57,6 +57,16 @@
       "b": ["Mango","Possum","Biscuit","Noodle","Walrus","Pickle","Moose","Dumpling","Otter","Waffle","Cactus","Llama","Turnip","Banjo","Hammock","Pretzel","Goose","Mushroom","Pancake","Yeti"],
       "c": ["Collective","Express","Conspiracy","Orchestra","Revue","Circus","Brigade","Project","Parade","Machine"],
       "patterns": ["{a} {b}","{a} {b} {c}","The {b} {c}","{b} {b2}","{a} {b} Band"]
+    },
+    {
+      "slug": "black-metal-band-name-generator",
+      "title": "Black Metal Band Name Generator",
+      "blurb": "Cold, grim, and frostbitten. Names for black metal bands of every stripe, from raw to atmospheric.",
+      "intro": "Black metal names sound cold and remote: a frozen landscape, a ruined stronghold, a rite held after dark. This generator pairs wintry adjectives with stark nouns the way raw and atmospheric black metal bands do. Click until one looks right in an unreadable logo.",
+      "a": ["Frostbitten","Starless","Grim","Ashen","Wintry","Forlorn","Moonlit","Glacial","Spectral","Blighted","Northern","Howling","Ravenous","Accursed","Sunless","Frozen","Bleak","Unhallowed","Withered","Obsidian"],
+      "b": ["Fjord","Rook","Pyre","Throne","Blizzard","Tomb","Fang","Dusk","Crypt","Fog","Thorn","Citadel","Glacier","Wraith","Sigil","Cairn","Tundra","Ember","Spire","Gibbet"],
+      "c": ["Rites","Legion","Winds","Dominion","Conclave","Horde","Requiem","Eclipse","Vigil","Procession"],
+      "patterns": ["{a} {b}","{b} of {b2}","{a} {b} {c}","{b} {c}","{a} {c}"]
     }
   ]
 }
