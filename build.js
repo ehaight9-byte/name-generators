@@ -13,13 +13,14 @@ const page = (title, desc, body) => `<!doctype html>
 <meta name="description" content="${esc(desc)}">
 <meta name="google-site-verification" content="jHGDuf7vndmoHAYF0z2J-8fbIdiqUQPOLxNXKIT1QVU" />
 <link rel="stylesheet" href="/style.css">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8267973935350100" crossorigin="anonymous"></script>
 </head>
 <body>
 <header><a href="/">${esc(site.name)}</a></header>
 <main>
 ${body}
 </main>
-<footer>Free to use. Check a name isn't already taken before you print the shirts.</footer>
+<footer>Free to use. Check a name isn't already taken before you print the shirts. Some links are affiliate links: if you buy through them, we may earn a commission at no extra cost to you.</footer>
 </body>
 </html>
 `;
@@ -32,6 +33,8 @@ for (const g of generators) {
 <p>${esc(g.intro)}</p>
 <button id="go">Generate names</button>
 <ul id="names" aria-live="polite"></ul>
+<div class="promo">Got a name? Now get the sound. Shop guitars, amps, drums and recording gear at <a href="https://www.zzounds.com/a--4000097" rel="sponsored nofollow noopener" target="_blank">zZounds</a>, with no-interest payment plans on a lot of gear.</div>
+<p class="tip">Before you print shirts, a free browser AI like <a href="https://harpa.ai?fpr=flyjck" rel="sponsored nofollow noopener" target="_blank">HARPA AI</a> can search the web for bands already using your name.</p>
 <h2>More generators</h2>
 <ul class="list">
 ${others}
