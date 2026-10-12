@@ -67,6 +67,15 @@
       "b": ["Fjord","Rook","Pyre","Throne","Blizzard","Tomb","Fang","Dusk","Crypt","Fog","Thorn","Citadel","Glacier","Wraith","Sigil","Cairn","Tundra","Ember","Spire","Gibbet"],
       "c": ["Rites","Legion","Winds","Dominion","Conclave","Horde","Requiem","Eclipse","Vigil","Procession"],
       "patterns": ["{a} {b}","{b} of {b2}","{a} {b} {c}","{b} {c}","{a} {c}"]
+    },
+    {
+      "slug": "emo-band-name-generator",
+      "title": "Emo Band Name Generator",
+      "blurb": "Heartfelt, wordy, and a little sad. Names for emo, midwest emo, and pop-punk bands.",
+      "intro": "Emo names sound like a line torn out of a notebook: small everyday objects, quiet feelings, and a phrase that is a little too long. This generator pairs wistful adjectives with bedroom and suburb nouns, sometimes as a short sentence. Click until one sounds like it belongs on a basement show flyer.",
+      "a": ["Paper","Sleepless","Basement","Borrowed","Quiet","Unsent","Rainy","Tired","Faded","Hollow","Lonely","Bitter","Teenage","Wilted","Crumpled","Cloudy","Hushed","Restless","Secondhand","Lukewarm"],
+      "b": ["Keepsake","Porch","Polaroid","Cassette","Bedroom","Streetlight","Diary","Hoodie","Driveway","Notebook","Heartbeat","Sweater","Overpass","Postcard","Windowsill","Mixtape","Rooftop","Suitcase","Payphone","Lighthouse"],
+      "patterns": ["{a} {b}","The {b} Was {a}","Me and the {a} {b}","{a} {b} Club","{b} {b2}"]
     }
   ]
 }
